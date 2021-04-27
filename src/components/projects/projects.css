@@ -1,0 +1,23 @@
+.all-project-div {
+    height: auto;
+    padding-bottom: 10rem;
+    background-color: rgba(128, 128, 128, 0.226);
+    clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 95%);
+}
+
+
+.cards {
+    margin: 1rem 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(360px, 1fr));
+    gap: 2rem;
+    row-gap: 2rem;
+}
+
+
+@media only screen and (max-width:660px) {
+    .cards {
+        margin: 0;
+    }
+  }
+

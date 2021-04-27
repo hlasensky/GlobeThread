@@ -1,0 +1,67 @@
+.btn {
+    font-size: 1.5rem;
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+
+  
+  .btnarrow {
+    width: 50px;
+    height: auto;
+  }
+  
+
+
+
+
+
+
+  input, button, submit { border:none; background: none;} 
+
+  a {
+    text-decoration: none;
+  }
+
+  .btn-projects {
+    font-size: 1.1rem;
+    border: none;
+    width: 140px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .btntext-projects {
+    color: #129EDA;
+  }
+  
+  .btnarrow-projects {
+    color: #129EDA;
+    opacity: 0;
+    width: 30px;
+    height: auto;
+  }
+  
+  .btn-projects:hover .btnarrow-projects  {
+    transition: all .5s;
+    transform: translateX(5px) rotate(360deg);
+    opacity: 1;
+  }
+  
+  .btn-projects:hover {
+    transition: all .5s;
+    width: 140px;
+    font-size: 1.1rem;
+    transform: translateX(3px);
+  }
+
+

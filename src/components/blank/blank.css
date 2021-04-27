@@ -1,0 +1,6 @@
+.blank {
+    background-color: rgba(255, 255, 255, 0);
+    height: 30rem;
+    z-index: 10;
+}
+
