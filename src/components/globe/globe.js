@@ -4,7 +4,7 @@ import React from 'react'
 
 
 const Globe = () => {
-    const [width, setWidth] = React.useState(window.innerWidth);
+    const width = React.useState(window.innerWidth);
     const breakpoint = 900;
     if (width > breakpoint) {
         return (
