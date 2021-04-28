@@ -51,7 +51,7 @@ class App extends Component {
                     </ErrorBoundry>
                     <Blank />
                     <div id="globe">
-                        <iframe width="100%" height="100%" src="https://cybermap.kaspersky.com/en/widget/dynamic/dark" frameborder="0" title="background"></iframe>
+                        <iframe width="100%" height="100%" src="https://cybermap.kaspersky.com/en/widget/dynamic/dark" frameBorder="0" title="background"></iframe>
                     </div>
                     <Footer/>
 
