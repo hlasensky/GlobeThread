@@ -20,9 +20,9 @@ function Hamburger() {
                         <AiIcons.AiOutlineClose className="hm-icon2"/>
                     </li>
                     <li className="hm-li"><a className="hm-a" href="#Home" ><AiIcons.AiFillHome className="icn"/>  Home</a></li>
-                    <li className="hm-li"><a className="hm-a" href="#AboutMe" ><AiIcons.AiFillHome className="icn"/>  About me</a></li>
-                    <li className="hm-li"><a className="hm-a" href="#Projects" ><AiIcons.AiFillHome className="icn"/>  Projects</a></li>      
-                    <li className="hm-li"><a className="hm-a" href="#Contacts"><AiIcons.AiFillHome className="icn"/>  Contacts</a></li> 
+                    <li className="hm-li"><a className="hm-a" href="#AboutMe" ><FaIcons.FaUserAlt className="icn"/>  About me</a></li>
+                    <li className="hm-li"><a className="hm-a" href="#Projects" ><AiIcons.AiFillCode className="icn"/>  Projects</a></li>      
+                    <li className="hm-li"><a className="hm-a" href="#Contacts"><AiIcons.AiFillPhone className="icn"/>  Contacts</a></li> 
                 </ul>
             </nav>
         </div>

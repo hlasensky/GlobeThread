@@ -50,10 +50,9 @@ class App extends Component {
                         <Projects projects={pr}/>
                     </ErrorBoundry>
                     <Blank />
-                    <div id="particles-js">
+                    <div id="globe">
                         <iframe width="100%" height="100%" src="https://cybermap.kaspersky.com/en/widget/dynamic/dark" frameborder="0" title="background"></iframe>
                     </div>
-                    
                     <Footer/>
 
                 </div>

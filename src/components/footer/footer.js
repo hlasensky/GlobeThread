@@ -6,6 +6,7 @@ const footer = () => {
     return (
         <section id="Contacts" className="div-contacts">
             <h2 className="contacts-h2">Contacts</h2>
+            
             <div className=" brd">
                 <div className="contact">
                     <div className="contact-img"> 
@@ -24,7 +25,8 @@ const footer = () => {
                     </form>
                 </div>
             </div>
-            <h2>Background by <a href="https://cybermap.kaspersky.com/ ">KASPERSKY</a></h2>
+            <h2 className="kaspersky">Background by <a href="https://cybermap.kaspersky.com/ ">KASPERSKY</a></h2>
+            <h2 className="kaspersky">Made by Tomáš Hlásenský using React</h2>
         </section>
     );
 }

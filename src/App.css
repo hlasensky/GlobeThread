@@ -21,7 +21,7 @@ li {
   padding: 1em;
 }
 
-#particles-js canvas {
+#globe canvas {
   position: fixed;
   height: 100%;
   width: 100%;
@@ -37,7 +37,7 @@ li {
   transition: opacity .8s ease, transform 1.4s ease
 }
 
-#particles-js {
+#globe {
   width: 100%;
   height: 100%;
   position: fixed;
@@ -106,7 +106,8 @@ li {
   html {
     font-size: 62.5% !important;
   }
- 
-  
+  #globe {
+    display: none;
+  }
 }
 
