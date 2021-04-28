@@ -13,7 +13,7 @@ const aboutMe = () => {
                 </div>
                 <div className="container">
                     <h2 className="about-h2">About me</h2>
-                    <p className="about-p">I would like to start by saying, I love doing interesting things and learning something new. My big passions are coding and gym, it's just really good to stay in greate shape physicaly and metnaly.</p>
+                    <p className="about-p">I would like to start by saying, I love doing interesting things and learning something new. My big passions are coding and gym, it's just really good to stay in a greate shape physicaly and metnaly.</p>
                     <div>
                         <hr></hr>
                         <h3 className="about-h3">Skills</h3>

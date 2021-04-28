@@ -5,7 +5,8 @@ import Landing from "./components/landingPage/landingPage";
 import Blank from "./components/blank/blank";
 import AboutMe from "./components/aboutMe/aboutMe";
 import Projects from "./components/projects/projects";
-import ErrorBoundry from "./components/ErrorBoundry"
+import ErrorBoundry from "./components/ErrorBoundry";
+import Globe from "./components/globe/globe";
 import Footer from "./components/footer/footer";
 
 import React, { Component } from 'react';
@@ -50,9 +51,7 @@ class App extends Component {
                         <Projects projects={pr}/>
                     </ErrorBoundry>
                     <Blank />
-                    <div id="globe">
-                        <iframe width="100%" height="100%" src="https://cybermap.kaspersky.com/en/widget/dynamic/dark" frameBorder="0" title="background"></iframe>
-                    </div>
+                    <Globe/>
                     <Footer/>
 
                 </div>
