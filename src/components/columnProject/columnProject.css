@@ -46,8 +46,21 @@
 }
 
 .description {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
+@media only screen and (max-width:1300px) {
+    .description {
+        font-size: 1.3rem;
+    }
+    
+  }
+@media only screen and (max-width:850px) {
+    .project-div {
+        width: 300px;
+    }
+
+    
+  }
 
 @media only screen and (max-width:410px) {
     .project-div {

@@ -12,12 +12,24 @@
     grid-template-columns: repeat(auto-fill,minmax(360px, 1fr));
     gap: 2rem;
     row-gap: 2rem;
+
 }
-
-
+@media only screen and (max-width:850px) {
+    .cards {
+        grid-template-columns: repeat(auto-fill,minmax(340px, 1fr));
+    }
+  }
 @media only screen and (max-width:660px) {
     .cards {
         margin: 0;
     }
   }
-
+@media only screen and (max-width:810px) {
+    .cards {
+        align-items: center;
+        justify-items: center;
+    }
+    .cards {
+        grid-template-columns: repeat(auto-fill,minmax(auto, 1fr));
+    }
+}
