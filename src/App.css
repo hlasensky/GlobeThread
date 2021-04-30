@@ -136,3 +136,14 @@ li {
   }
 }
 
+@media only screen and (max-width:700px) {
+  html {
+    font-size: 58% !important;
+  }
+}
+
+@media only screen and (max-width:400px) {
+  html {
+    font-size: 54% !important;
+  }
+}
