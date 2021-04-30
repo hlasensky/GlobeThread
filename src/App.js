@@ -10,10 +10,7 @@ import Globe from "./components/globe/globe";
 import Footer from "./components/footer/footer";
 
 import React, { Component } from 'react';
-
-
-
-
+import * as AiIcons from "react-icons/ai";
 
 
 
@@ -39,7 +36,7 @@ class App extends Component {
     render() {
         const pr = this.state.projects;
         return !this.state.projects.length ?
-            <div className="loading" ><h1>Loading...</h1></div> :
+            <div className="loading" ><h1><AiIcons.AiOutlineSlack className="load"/></h1></div> :
             (
                 <div className="App" >
                     <Navbar />

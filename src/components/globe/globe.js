@@ -5,7 +5,7 @@ import React from 'react'
 
 const Globe = () => {
     const [width, setWidth] = React.useState(window.innerWidth);
-    const breakpoint = 900;
+    const breakpoint = 700;
     React.useEffect(() => {
         const handleResizeWindow = () => setWidth(window.innerWidth);
          // subscribe to window resize event "onComponentDidMount"
@@ -26,9 +26,12 @@ const Globe = () => {
         );
     } else {
         return (
-        <div>
+            <div>
+                <div className="back-gr-im">
+                    
+                </div>
+            </div>
 
-        </div>
       );
     }
 

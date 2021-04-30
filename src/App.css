@@ -43,12 +43,41 @@ li {
   position: fixed;
   z-index: -10;
   top: 0;
-  left: 0
+  left: 0;
 }
 
+.back-gr-im {
+  position: fixed;
+  bottom: 0;
+
+  z-index: -9;
+  width: 100%;
+  height:100%;
+  background-image: url(./components/globe/pexels-junior-teixeira-2047905.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.load {
+  text-decoration: none;
+  color: #129EDA;
+  width: 10em;
+  height: 10em;
+  padding: 0 16px;
+  border-radius: 4px;
+  transition: all 3s ease;
+  transform: rotate(360deg);
+}
 
 .loading {
   color: #129EDA;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .tsparticles-canvas-el {

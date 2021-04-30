@@ -5,7 +5,7 @@ import Button from "../buttons/buttons"
 
 import './landingPage.css'
 
-const landing = () => {
+const Landing = () => {
     return (
         <section className="div-landing" id="Home">
                 <div className="text-landing">
@@ -21,4 +21,4 @@ const landing = () => {
     );
 }
 
-export default landing;
+export default Landing;
