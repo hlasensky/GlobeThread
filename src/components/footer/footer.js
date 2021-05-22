@@ -1,13 +1,13 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
 
+
 import './footer.css'
 
 const Footer = () => {
     function sendEmail(e) {
         e.preventDefault();
-
-        emailjs.sendForm(process.env.REACT_APP_YOUR_SERVICE_ID, process.env.REACT_APP_YOUR_TEMPLATE_ID, e.target, process.env.REACT_APP_YOUR_USER_ID)
+        emailjs.sendForm("gmail", "template_wfk0cag", e.target, process.env.REACT_APP_YOUR_USER_ID)
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
