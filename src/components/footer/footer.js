@@ -40,7 +40,7 @@ const Footer = () => {
             </div>
             <div className="footer-cop">
                 <h2 className="kaspersky">Background by <a href="https://cybermap.kaspersky.com/ ">KASPERSKY</a></h2>
-                <h2 className="cop">Made by Tomáš Hlásenský using React</h2>
+                <h2 className="cop">Made by Tomáš Hlásenský using REACT</h2>
             </div>
             
         </section>
