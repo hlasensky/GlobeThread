@@ -8,7 +8,6 @@ const Navbar = () => {
     const [isActive, setActive] = useState("false");
     const handleToggle = () => {
         setActive(!isActive);
-        console.log("yea")
     };
     return (
         <nav>
