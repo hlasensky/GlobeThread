@@ -7,7 +7,7 @@ import './footer.css'
 const Footer = () => {
     function sendEmail(e) {
         e.preventDefault();
-        emailjs.sendForm("gmail", "template_wfk0cag", e.target, process.env.REACT_APP_YOUR_USER_ID)
+        emailjs.sendForm("service_nl60pke", "template_wfk0cag", e.target, process.env.REACT_APP_YOUR_USER_ID)
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
